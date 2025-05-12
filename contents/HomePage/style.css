@@ -1,0 +1,14 @@
+body{
+        background-color: rgb(62, 75, 86);
+}
+body > div{
+        background-color: rgb(42, 56, 69);
+}
+h1 , h4{
+        color: white;
+
+}
+
+#name{
+        color: black;
+}

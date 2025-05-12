@@ -1,11 +1,14 @@
  
 ---
- 
+#00ADB5
+#222831
+#393E46
+ #EEEEEE
 ### **Portfolio Structure**  
 
 **1. Hero Section**  
 - **Headline**: "Turning Ideas into Digital Solutions"  
-- **Subheadline**: "Full-Stack Web & Mobile Developer | 3+ Years Crafting Scalable Apps"  
+- **Subheadline**: " | 3+ Years Crafting Scalable Apps"  
 - **Call to Action**: "View My Work" (links to projects)  
 - **Optional**: A short animated intro or a clean screenshot of one of your apps.  
  
@@ -81,4 +84,76 @@
 - Proofread for typos!  
  
 This portfolio will highlight your technical skills, process, and results—not just code. Let your projects shine! 🚀
+ 
+
+
+
+Services section
+In your "Services" section as a web and mobile application developer, you should clearly outline what you offer in a way that resonates with potential clients or employers. Here's a list of items you can include:
+ 
+1. Custom Web Application Development
+ 
+Responsive, modern UI/UX design
+ 
+Frontend & backend development
+ 
+Web APIs & third-party integrations
+ 
+ 
+2. Mobile App Development
+ 
+Cross-platform apps (React Native, Flutter, etc.)
+ 
+iOS and Android support
+ 
+App store deployment
+ 
+ 
+3. UI/UX Design
+ 
+Wireframing and prototyping
+ 
+Mobile-first responsive designs
+ 
+Design system creation
+ 
+ 
+4. Maintenance & Support
+ 
+Bug fixes and updates
+ 
+Performance optimization
+ 
+Feature enhancements
+ 
+ 
+5. Backend Development
+ 
+RESTful API development
+ 
+Database design & integration (SQL, NoSQL)
+ 
+Authentication and authorization systems
+ 
+ 
+6. Deployment & DevOps
+ 
+CI/CD setup
+ 
+Cloud hosting (AWS, Firebase, Vercel, etc.)
+ 
+Version control (Git/GitHub)
+ 
+ 
+7. Consulting & Project Planning
+ 
+Technical consultation
+ 
+MVP scoping
+ 
+Architecture planning
+ 
+ 
+Would you like a neatly designed section or card layout for these services for your portfolio?
+ 
  
