@@ -9,13 +9,14 @@
                 integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
                 crossorigin="anonymous">
         <style>
-                #top-section {
-                        background-color: aqua;
-                }
+                /* .top-section{
+                        padding-top: 20;
+                } */
         </style>
 </head>
 
-<body>
+<body data-bs-theme="dark">
+
         <section>
                 <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
                         <div class="container"> <a class="navbar-brand d-md-none" href="#">
@@ -46,22 +47,26 @@
                                                                                 aria-hidden="true">
                                                                                 <use xlink:href="#aperture"></use>
                                                                         </svg> </a></li>
-                                                        <li class="nav-item"><a class="nav-link"
+                                                        <li class="nav-item"><a class="nav-link text-white"
                                                                         href="./../../index.html">Home</a></li>
                                                         <li class="nav-item"><a class="nav-link"
-                                                                        href="./contents/Services/myServices.html">My
+                                                                        href="./myServices.html">My
                                                                         services</a></li>
 
                                                         <li class="nav-item"><a class="nav-link"
-                                                                        href="./contents/Projects/projects.html">Projects</a>
+                                                                        href="./../Projects/projects.html">Projects</a>
+                                                        </li>
+                                                        <li class="nav-item"><a class="nav-link"
+                                                                        href="./../Skills/skills.html">Skills</a>
                                                         </li>
 
 
-                                                        <li class="nav-item"><a class="nav-link" href="#">Hobbbies</a>
-                                                        </li>
-                                                        <li class="nav-item"><a class="nav-link" href="#">Feedback</a>
-                                                        </li>
-                                                        <li class="nav-item"><a class="nav-link" href="#">Contact</a>
+                                                        <!-- <li class="nav-item"><a class="nav-link"
+                                                                        href="./../Hobbies/hobbies.html">Hobbbies</a>
+                                                        </li> -->
+
+                                                        <li class="nav-item"><a class="nav-link"
+                                                                        href="./../Contact/contact.html">Contact</a>
                                                         </li>
                                                         <li class="nav-item"><a class="nav-link" href="#"
                                                                         aria-label="Cart">
@@ -76,13 +81,11 @@
                 </nav>
         </section>
 
-        <section id="top-section" class="text-center py-5">
-                <div class="row py-lg-5">
-                        <div class="col-lg-6 col-md-8 mx-auto">
-                                <h1 class="fw-light">My Service</h1>
-                                <p class="lead text-body-secondary"></p>
+        <section id="top-section">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class=" text-center fw-light display-1">My Service</h1>
+                        <p class="lead text-body-secondary"></p>
 
-                        </div>
                 </div>
         </section>
 
@@ -198,27 +201,32 @@
                 <div class="container">
                         <footer
                                 class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                                <p class="col-md-4 mb-0 text-body-secondary">© 2025 Company, Inc</p> <a href="/"
+                                <p class="col-md-4 mb-0 text-body-secondary">©Tassain Rasool Malik</p> <a href="/"
                                         class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
                                         aria-label="Bootstrap"> <svg class="bi me-2" width="40" height="32"
                                                 aria-hidden="true">
                                                 <use xlink:href="#bootstrap"></use>
                                         </svg> </a>
                                 <ul class="nav col-md-4 justify-content-end">
-                                        <li class="nav-item"><a href="./../../index.html"
-                                                        class="nav-link px-2 text-body-secondary">Home</a></li>
+                                        <li class="nav-item"><a class="nav-link text-white"
+                                                        href="./../../index.html">Home</a></li>
 
-                                        <li class="nav-item"><a href="./myServices.html"
-                                                        class="nav-link px-2 text-body-secondary">My
-                                                        Services</a></li>
-                                        <li class="nav-item"><a href="#"
-                                                        class="nav-link px-2 text-body-secondary">Projects</a></li>
-                                        <li class="nav-item"><a href="#"
-                                                        class="nav-link px-2 text-body-secondary">Hobbies</a></li>
-                                        <li class="nav-item"><a href="#"
-                                                        class="nav-link px-2 text-body-secondary">Feedback</a></li>
-                                        <li class="nav-item"><a href="#"
-                                                        class="nav-link px-2 text-body-secondary">Contact</a></li>
+                                        <li class="nav-item"><a class="nav-link text-white" href="./myServices.html">My
+                                                        services</a></li>
+
+                                        <li class="nav-item"><a class="nav-link text-white"
+                                                        href="./../Projects/projects.html">Projects</a>
+                                        </li>
+
+                                        <!-- <li class="nav-item"><a class="nav-link text-white"
+                                                        href="./../Hobbies/hobbies.html">Hobbbies</a>
+                                        </li> -->
+                                        <li class="nav-item"><a class="nav-link text-white"
+                                                        href="./../Skills/skills.html">Skills</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link text-white"
+                                                        href="./../Contact/contact.html">Contact</a>
+                                        </li>
                                 </ul>
                         </footer>
                 </div>
