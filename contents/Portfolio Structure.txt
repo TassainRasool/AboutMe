@@ -154,6 +154,5 @@ MVP scoping
 Architecture planning
  
  
-Would you like a neatly designed section or card layout for these services for your portfolio?
  
  
